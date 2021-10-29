@@ -49,13 +49,13 @@ int main() {
   decryptByNaiveApproach();
   end = clock();
   cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-  printf("Time taken by 1st method = %lf s", cpu_time_used);
+  printf("Time taken by Naive method = %lf s", cpu_time_used);
   preCompute();
   start = clock();
   decryptByCrt(d1, d2, xp, xq);
   end = clock();
   cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC;
-  printf("Time taken by 2nd method = %lf s\n", cpu_time_used);
+  printf("Time taken by using CRT  = %lf s\n", cpu_time_used);
   return 0;
 }
 
