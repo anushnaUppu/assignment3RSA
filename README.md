@@ -14,3 +14,4 @@
 We can clearly see that the Decryption algorithm by using CRT approach will take less than the Naive approach.
 
 Note: The Naive Approach will take sometime(around 20sec) inorder calculate the result as it is a time taking approach.
+![rsa](https://user-images.githubusercontent.com/93385316/139439580-541f5b42-07af-429b-88fc-bd28e5c35fc3.png)
