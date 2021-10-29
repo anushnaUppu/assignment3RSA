@@ -1,4 +1,4 @@
-# assignment3RSA
+# RSA Algorithm
 1)Clone the project by using the command: git clone https://github.com/anushnaUppu/assignment3RSA.git
 
 2)Go to the repository: cd assignment3RSA/
